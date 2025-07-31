@@ -1,65 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal, experimental games made by István Varga">
+  <meta property="og:title" content="Talking Head Games">
+  <meta property="og:description" content="Experimental narrative games by István Varga">
+  <meta property="og:image" content="https://talkinghead.games/banner.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://talkinghead.games">
   <title>Talking Head Games</title>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
   <style>
     body {
-      font-family: 'Manrope', sans-serif;
-      background: #081428;
-      color: #c9d1d9;
-      max-width: 600px;
-      margin: 3em auto;
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: 2em auto;
       padding: 0 1em;
       line-height: 1.6;
-      position: relative;
+      color: #222;
     }
-    .logo-bottom {
-      display: block;
-      margin: 3em auto 0 auto;
-      width: 240px;
-      height: auto;
-      filter: drop-shadow(5 20px 60px rgba(0, 0, 0, 0.87));
-    }
-    h1, h2 {
-      color: #ffffff;
-    }
-    a {
-      color: #66b2ff;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
+    header {
+      text-align: center;
+      margin-bottom: 2em;
     }
     .profile-pic {
       display: block;
-      margin: 2em auto;
-      width: 200px;
-      height: 150px;
-      border-radius: 100%;
-      object-fit: contain;
+      margin: 1em auto;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
       border: 2px solid #66b2ff;
-      background-color: #060f1f;
+    }
+    nav {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+    nav a {
+      margin: 0 1em;
+      text-decoration: none;
+      color: #66b2ff;
+    }
+    footer {
+      margin-top: 4em;
+      text-align: center;
+      font-size: 0.9em;
+      color: #999;
     }
   </style>
 </head>
 <body>
-  <h1>Hi.</h1>
-  <img src="avatar.png" alt="Photo of István Varga" class="profile-pic" />
-  <p>I’m István Varga.</p>
-  <p>I make small games. They’re personal, experimental.</p>
-  <p>I’m not aiming for a market segment. I just want to make things that feel a bit like me, and maybe help me land a job I like.</p>
-  <p>That’s the main idea.</p>
+  <header>
+    <h1>Talking Head Games</h1>
+    <p><em>Experimental Narrative Experiences</em></p>
+    <img src="/avatar.jpg" alt="Profile picture" class="profile-pic">
+  </header>
 
-  <h2>About the Process</h2>
-  <p>I heavily utilize AI tools. They help me get assets in a reasonable time without breaking the bank or going all in on learning design tools.</p>
-  <p>I still tweak, edit, and shape everything myself. The goal is to enjoy learning how to implement LLMs in games and to make something real along the way.</p>
+  <nav>
+    <a href="/">Home</a>
+    <a href="https://talkingheadgames.substack.com">Devlog</a>
+    <a href="mailto:istvan.varga@talkinghead.games">Contact</a>
+    <a href="#about">About</a>
+  </nav>
 
-  <h2>Devlog</h2>
-  <p><a href="https://vargaistvanmarko.substack.com" target="_blank">Read the devlog on Substack</a></p>
+  <main>
+    <p>Hi! I'm István Varga. I’m experimenting with gameplay loops built around natural conversation. My goal is to create short, clever, and unusual narrative games — where you talk, argue, and influence the world using words alone.</p>
 
-  
+    <p>I'm using LLMs, simple 2D tools, and open-source software to create weird prototypes that will (hopefully) stick in your mind longer than a leaderboard screen.</p>
+
+    <p>This site is a devlog and project hub — mostly for myself, but also for anyone curious about blending AI, storytelling, and a touch of existential dread.</p>
+
+    <p><strong>Latest project:</strong> <em>Defender of the Damned</em> — a courtroom game where you defend lost souls from a smug AI Devil.</p>
+  </main>
+
+  <footer>
+    &copy; 2025 Talking Head Games. All rights reserved.
+  </footer>
 </body>
 </html>
