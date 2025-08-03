@@ -1,0 +1,22 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor/IDE noise
+.vscode/
+.idea/
+
+# Backup and temp files
+*.bak
+*.tmp
+*.swp
+*.swo
+*.swn
+*.orig
+*~
+
+# Log files
+*.log
+
+# System files
+desktop.ini
